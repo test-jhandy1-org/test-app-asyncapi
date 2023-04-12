@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-topic
+spec:
+  type: asyncapi
+  lifecycle: experimental
+  owner: default/owner
+  system: test-system
+  definition:
+    $text: ./../api-spec/aysncAPI-example.yaml

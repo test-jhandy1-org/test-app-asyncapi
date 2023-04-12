@@ -1,0 +1,17 @@
+version: "3"
+services:
+  test:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_HOST: postgres
+
+  postgres:
+    image: postgres:11.2-alpine
+    environment:
+      POSTGRES_PASSWORD: goland
+      POSTGRES_USER: goland
+      POSTGRES_DB: 
