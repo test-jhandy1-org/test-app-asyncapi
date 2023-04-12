@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: test-topic
+  annotations:
+    backstage.io/techdocs-ref: dir:./../docs
 spec:
   type: asyncapi
   lifecycle: experimental
