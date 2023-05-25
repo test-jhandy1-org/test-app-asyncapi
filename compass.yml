@@ -1,0 +1,18 @@
+name: test-app-asyncapi
+id: 'ari:cloud:compass:480c3cec-ea08-4c1f-9020-ea2373d7b7fc:component/cc400350-8340-4426-87e8-490883a24cf5/b03989ee-63a3-4d75-92e3-e6e3c8f38c9f'
+description: Check it works...
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:teams::team/10f02559-9a4e-4d77-a7b0-0015a7c4be03'
+fields:
+  lifecycle: Pre-release
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/test-jhandy1-org/test-app-asyncapi'
+relationships: {}
+labels:
+  - 'language:javascript'
+  - 'source:github'
+customFields: null
